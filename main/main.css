@@ -1,0 +1,130 @@
+.page{
+    max-width: 1440px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.header {
+    height: 91px;
+}
+.nav {
+   margin-left:135px;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   height: 66px;
+   text-align:center;
+}
+.nav__ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+  }
+
+
+  .list__href {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19.5px;
+  }
+
+  .list__href--phone{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .list__href__img {
+    width: 216px;
+    height: 66px;
+  }
+
+  .board {
+    height:744.91px;
+  }
+
+  .board__block{
+    height: 590px;
+    background-color: #CCB2A3;
+    display:flex;
+    gap: 30px;
+    flex-direction: row;
+  }
+
+  .board__block .item-1{
+    display:flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-left: 135px;
+    margin-top:150px;
+    width: 270px;
+  }
+
+  .item__head-1 {
+    height: 184px;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 46.2px;
+    color:#FFFFFF;
+  }
+
+  .board__block .item__span{
+    color:#FF9619;
+    font-weight: 300;
+  }
+
+  .board__block .item__btn {
+    background-color: #FF9619;
+    color: #FFFFFF;
+    width: 209.54px;
+    height:43px;
+    border:none;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .board__block .item-2__p {
+    text-align: end;
+    color: #FFFFFF;
+    font-family: "Raleway" , sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.5px;
+  }
+
+  .slider__img-1 {
+    width: 870px;
+    height: 617px;
+  }
+
+  .slider__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    gap:10px;
+  }
+
+  .slider__control {
+    width:12.91px;
+    height: 12.91px;
+    border-radius: 100%;
+    background-color: #F2F3F5;
+  }
+
+  .slider__control--active{
+    width:12.91px;
+    height: 12.91px;
+    border-radius: 100%;
+    background-color: #FF9619;
+  }
+
+
